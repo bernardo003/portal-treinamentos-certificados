@@ -58,6 +58,17 @@ Este é um plano para a etapa de 11/11. O protótipo ainda não foi construído;
 
 Antes de cada execução, restaurar a massa de dados conhecida e conferir a versão do protótipo. Não inserir dados pessoais ou clínicos reais nas telas, capturas, logs ou certificados de demonstração.
 
+### Responsabilidades planejadas
+
+| Papel | Responsabilidade |
+|---|---|
+| Equipe de teste | Preparar dados fictícios, executar os casos, registrar evidências e abrir defeitos com passos reproduzíveis |
+| Equipe de desenvolvimento | Disponibilizar a versão identificada do protótipo, apoiar a preparação do ambiente e analisar/corrigir defeitos |
+| Revisor de qualidade | Conferir requisitos, cobertura da matriz de rastreabilidade, evidências e classificação de defeitos |
+| Interessados acadêmicos | Validar as regras ainda ambíguas e avaliar a demonstração de aceitação |
+
+Os papéis são responsabilidades do grupo, não nomes atribuídos. A equipe deve indicar integrantes antes da execução.
+
 ## 5. Níveis de teste
 
 | Nível | Aplicação ao projeto | Situação nesta entrega |
@@ -165,6 +176,131 @@ flowchart TD
 | T6 — Verificação | Campo para código, ação consultar e estado válido/não localizado | Exposição mínima de dados e código inválido |
 | T7 — Gestão | Cursos e configuração; estado e arquivamento | Atualização sem perda de histórico |
 | T8 — Relatório do gestor | Setor autorizado, inscrições, aprovações, reprovações, conclusões e pendências | Isolamento entre setores e legibilidade |
+
+### Wireframes de baixa fidelidade
+
+Os quadros abaixo são esboços de navegação para orientar a etapa de protótipo. Não representam telas implementadas.
+
+**T1 — Acesso de demonstração**
+
+```text
++--------------------------------------------------+
+| PORTAL DE TREINAMENTOS                           |
+| Acesse com uma conta fictícia                    |
+|                                                  |
+| Matrícula   [____________________________]       |
+| Senha       [____________________________]       |
+|                                                  |
+|             [ Entrar ]                           |
+|                                                  |
+| Mensagem: confira os dados e tente novamente.    |
++--------------------------------------------------+
+```
+
+**T2 — Catálogo de cursos**
+
+```text
++--------------------------------------------------+
+| Olá, Colaborador Demo       Meu histórico        |
+| Cursos disponíveis                                 |
+| [ Buscar curso________________ ] [Filtrar v]     |
+|                                                  |
+| [OBRIGATÓRIO] Segurança do paciente               |
+|  4 h | Disponível até 30/11 | [ Ver curso ]       |
+|                                                  |
+| [OPCIONAL] Higienização das mãos                  |
+|  2 h | Disponível até 15/12 | [ Ver curso ]       |
+|                                                  |
+| Progresso geral: 1 de 3 cursos concluídos         |
++--------------------------------------------------+
+```
+
+**T3 — Curso e progresso**
+
+```text
++--------------------------------------------------+
+| Catálogo > Segurança do paciente                  |
+| Carga horária: 4 h       Nota mínima: 70%         |
+| Progresso: [########------] 2 de 4 atividades     |
+|                                                  |
+| [x] Introdução              [Abrir novamente]      |
+| [x] Vídeo de segurança      [Concluído]            |
+| [ ] Material em PDF         [Abrir atividade]      |
+| [ ] Avaliação               [Bloqueada]            |
+|                                                  |
+| Próxima etapa: concluir o material em PDF         |
++--------------------------------------------------+
+```
+
+**T4 — Avaliação e resultado**
+
+```text
++--------------------------------------------------+
+| Avaliação: Segurança do paciente                 |
+| Questão 1 de 5                                    |
+| Qual ação deve ser tomada primeiro?               |
+| ( ) Alternativa A                                 |
+| ( ) Alternativa B                                 |
+| ( ) Alternativa C                                 |
+|                                                  |
+| [ Voltar ]                         [ Enviar ]     |
++--------------------------------------------------+
+
+Resultado após envio:
++--------------------------------------------------+
+| Resultado: APROVADO                              |
+| Nota: 80% | Mínimo do curso: 70%                  |
+| Atividades obrigatórias: concluídas              |
+|                         [ Gerar certificado ]     |
++--------------------------------------------------+
+```
+
+**T5 — Certificado emitido**
+
+```text
++--------------------------------------------------+
+| CERTIFICADO DE CONCLUSÃO                         |
+|                                                  |
+| Certificamos que Colaborador Demo concluiu       |
+| Segurança do paciente — 4 horas                  |
+| Data de conclusão: 11/11/2026                   |
+| Código de verificação: TRN-7K4M-2Q9P             |
+|                                                  |
+| [ Baixar PDF ]        [ Verificar autenticidade ]|
++--------------------------------------------------+
+```
+
+Os nomes, matrícula e código acima são marcadores fictícios para o esboço; o protótipo deverá gerar valores de demonstração, sem usar registros reais.
+
+**T6 — Verificação de autenticidade**
+
+```text
++--------------------------------------------------+
+| Verificar certificado                            |
+| Código [________________________] [ Consultar ]  |
+|                                                  |
+| Resultado: certificado válido                    |
+| Curso: Segurança do paciente                      |
+| Conclusão: 11/11/2026                             |
+| Nenhuma matrícula é exibida nesta consulta.       |
++--------------------------------------------------+
+```
+
+**T7 — Gestão e relatório**
+
+```text
++--------------------------------------------------+
+| Painel de gestão             Setor: [Setor A v]  |
+| Inscritos 24 | Aprovados 18 | Pendentes 6        |
+| [Exportar relatório]       [Gerenciar cursos]    |
+|                                                  |
+| Curso                       Concluídos  Pendentes|
+| Segurança do paciente           12          3    |
+| NR-32                            6          3    |
+|                                                  |
+| Acesso limitado aos setores autorizados          |
++--------------------------------------------------+
+```
 
 ## 11. Registro de resultados e defeitos para a próxima etapa
 
