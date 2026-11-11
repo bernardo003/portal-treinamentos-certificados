@@ -121,7 +121,7 @@ Escala proposta: probabilidade (P) e impacto (I) de 1 a 3. Pontuação = P × I.
 | TC-03 / P1 | RF-03, RF-04 | Curso padrão com atividades completas; nota de 70% | Completar curso e responder avaliação com pontuação exatamente no limite | Sistema registra aprovação e data; habilita certificado |
 | TC-04 / P1 | RF-06, RF-07 | Curso padrão; nota de 69% | Completar atividades e submeter avaliação abaixo de 70% | Sistema registra reprovação, explica o resultado e não habilita certificado |
 | TC-05 / P1 | RF-05, RF-06, RF-07 | Curso configurado com nota mínima de 80% | Submeter avaliações com 79% e 80% em execuções separadas | 79% reprova e 80% aprova; regra configurada prevalece sobre o padrão de 70% |
-| TC-06 / P1 | RF-07, RF-08 | Curso padrão; nota aprovada, uma atividade obrigatória pendente | Tentar concluir/emitir certificado | Emissão bloqueada; sistema indica atividade pendente e preserva o progresso |
+| TC-06 / P1 | RF-07, RF-08 | Massa de teste controlada com resultado aprovado registrado e uma atividade obrigatória pendente | Tentar emitir certificado | Emissão bloqueada; sistema indica atividade pendente e preserva o progresso |
 | TC-07 / P1 | RF-08, RNF-04 | Colaborador fictício aprovado e curso com carga horária conhecida | Acionar emissão e medir do aceite da solicitação até o PDF disponível | PDF disponível em até cinco segundos e contém os campos definidos; código é exclusivo |
 | TC-08 / P1 | RF-09 | Certificado de teste emitido e código válido | Abrir verificação e informar código válido sem autenticação, conforme proposta a validar | Autenticidade confirmada e resposta revela somente os dados aprovados pelos interessados |
 | TC-09 / P1 | RF-09 | Código fictício inexistente | Consultar código inexistente | Sistema informa que não localizou ou não validou o certificado, sem revelar dados de outra pessoa |
@@ -156,12 +156,12 @@ Escala proposta: probabilidade (P) e impacto (I) de 1 a 3. Pontuação = P × I.
 flowchart TD
   A[Login de demonstração] --> B[Catálogo e cursos elegíveis]
   B --> C[Detalhe do curso e progresso]
-  C --> D[Concluir atividades]
-  D --> E[Avaliação objetiva]
+  C --> D{Atividades obrigatórias concluídas?}
+  D -- Não --> H[Bloquear avaliação ou emissão; mostrar pendência]
+  D -- Sim --> E[Avaliação objetiva]
   E --> F{Nota mínima atingida?}
   F -- Não --> G[Resultado: reprovado; sem certificado]
-  F -- Sim, mas há atividade pendente --> H[Emissão bloqueada; mostrar pendência]
-  F -- Sim e atividades completas --> I[Gerar certificado PDF]
+  F -- Sim --> I[Gerar certificado PDF]
   I --> J[Exibir/baixar certificado com código]
   J --> K[Verificação pública com dados mínimos]
 ```
