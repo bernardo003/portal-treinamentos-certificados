@@ -29,7 +29,7 @@ Demonstrar o fluxo principal de certificação com uma página estática, sem in
 ## Dados da demonstração
 
 - Nome do participante: informado na sessão; usar um nome fictício.
-- Curso: “Boas práticas e segurança no ambiente de trabalho”.
+- Curso padrão fictício: “Segurança do paciente e boas práticas assistenciais” (4 horas); segunda opção demonstrativa: “Comunicação e trabalho em equipe” (2 horas).
 - Carga horária: 4 horas.
 - Conclusão: data escolhida no formulário.
 - Nota mínima: 70% ou 80% no modo de demonstração.
@@ -54,3 +54,8 @@ O navegador mantém no armazenamento local apenas código, curso, data e situaç
 - A configuração de curso é fixa na demonstração; o seletor de nota é apenas um modo didático.
 - Não foram medidos desempenho sob concorrência, disponibilidade mensal ou segurança de produção.
 - Acessibilidade foi considerada no markup, mas ainda precisa de inspeção formal com teclado e tecnologias assistivas.
+
+
+## Referências do conteúdo demonstrativo
+
+As perguntas introdutórias sobre identificação segura e higiene das mãos são baseadas nas orientações oficiais da [Anvisa sobre identificação do paciente](https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude/seguranca-do-paciente/avaliacao-nacional-das-praticas-de-seguranca-do-paciente/DILISEORIENTAESDEPREENCHIMENTOAVALIACODASPRATICASDESEGDOPACIENTE2025_versofinal010425.pdf) e no [protocolo de higiene das mãos](https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-de-higiene-das-maos). O conteúdo é educativo e genérico; a capacitação real deve seguir protocolos e orientação profissional da instituição. A demonstração não substitui treinamento oficial.
