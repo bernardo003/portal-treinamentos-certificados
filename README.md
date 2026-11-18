@@ -1,20 +1,34 @@
-# Portal de treinamentos e certificados
+# CertiForm — Portal de treinamentos e certificados
 
-Projeto A3 da disciplina Garantia da Qualidade de Software (UNIFACS), baseado no Modelo 2: Educação Corporativa e RH. O protótipo futuro demonstrará a conclusão de um curso, aprovação em avaliação objetiva e emissão de certificado PDF verificável.
+Projeto acadêmico do grupo Bernardo, Samir, Rafael, Lucas e Leonardo, iniciado para a disciplina de Garantia da Qualidade de Software (UNIFACS). O produto reúne inscrição em capacitações, acompanhamento da conclusão, avaliação objetiva e geração de certificados verificáveis.
 
-## Entrega atual
+O cenário de referência é educação corporativa e RH. Qualquer menção ao Hospital Inácia Pinto dos Santos (Hospital da Mulher) é apenas um cenário didático: o repositório não contém integração institucional nem dados reais.
 
-As entregas são cumulativas:
+## O projeto em um só lugar
 
-- [Entrega 1 — Análise e validação de requisitos](docs/entrega-01-analise-requisitos.md): requisitos funcionais e não funcionais, regras de negócio, atributos de qualidade, critérios de aceitação, ambiguidades e definição da funcionalidade principal.
-- [Entrega 2 — Planejamento dos testes](docs/entrega-02-planejamento-testes.md): plano, casos, rastreabilidade, riscos, níveis de teste, fluxo e esboço de telas para a data de 11/11/2026. Os testes estão planejados e ainda não foram executados.
+- [Visão integrada e Canvas](docs/01-visao-integrada.md): problema, processo, usuários, concorrentes, objetivos, impactos, riscos, referências e recorte do protótipo.
+- [Protótipo e arquitetura](docs/02-prototipo-e-arquitetura.md): telas, regras, fluxo e funcionamento da demonstração.
+- [Plano de validação](docs/03-plano-de-validacao.md): critérios, roteiro de inspeção, evidências a coletar e limites conhecidos.
+- [Rascunho do relatório final UC HUB](docs/04-relatorio-final-uc-hub.md): respostas organizadas conforme o modelo, sem inventar resultados ainda não medidos.
+- [Roteiro de pitch](docs/05-pitch-3-minutos.md): sequência e fala para apresentação curta.
+- [Protótipo web](prototype/index.html): demonstração local do fluxo de inscrição, avaliação, certificado e consulta por código.
+- [Entrega 1 — Requisitos](docs/entrega-01-analise-requisitos.md).
+- [Entrega 2 — Planejamento de testes](docs/entrega-02-planejamento-testes.md).
 
-## Escopo didático
+## Executar o protótipo
 
-Integração com RH simulada. Use somente dados fictícios; não insira dados pessoais ou clínicos reais. O projeto não representa uma implantação oficial do Hospital da Mulher.
+Abra `prototype/index.html` em um navegador atual. Não precisa instalar dependências nem criar conta. Use apenas dados fictícios. Na emissão, escolha imprimir/salvar como PDF no diálogo do navegador. A verificação de código funciona no mesmo navegador, usando armazenamento local.
 
-## Próximas etapas
+## Limites da demonstração
 
-- Protótipo funcional, inspeção e evidências (etapa prevista para 18/11/2026).
-- Verificação, validação, correções e relatório final.
+Este é um protótipo acadêmico de front-end, sem servidor, autenticação institucional, integração real com RH, armazenamento seguro, assinatura digital ou certificado oficial. O código de validação demonstra o fluxo, mas não é uma prova criptográfica. Não use dados pessoais reais. A emissão do PDF depende do recurso de impressão do navegador.
 
+## Equipe
+
+Bernardo · Samir · Rafael · Lucas · Leonardo
+
+As responsabilidades individuais serão definidas pelo grupo. O proponente da proposta do Way Hub aparece como responsável pelo envio; isso não atribui papéis aos demais integrantes.
+
+## Situação das evidências
+
+Requisitos e casos de teste estão especificados. A construção do protótipo está disponível no repositório; medições, execução formal dos casos, capturas de evidência e aprovação de usuários devem ser registradas pelo grupo antes de afirmar resultados.
