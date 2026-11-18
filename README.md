@@ -6,6 +6,7 @@ O cenário de referência é educação corporativa e RH. Qualquer menção ao H
 
 ## O projeto em um só lugar
 
+- [Checklist da Sprint 2 — entrega 18/11](docs/00-entrega-sprint-2-checklist.md): gravação do protótipo, pitch e relatório final, com pendências do grupo.
 - [Visão integrada e Canvas](docs/01-visao-integrada.md): problema, processo, usuários, concorrentes, objetivos, impactos, riscos, referências e recorte do protótipo.
 - [Protótipo e arquitetura](docs/02-prototipo-e-arquitetura.md): telas, regras, fluxo e funcionamento da demonstração.
 - [Plano de validação](docs/03-plano-de-validacao.md): critérios, roteiro de inspeção, evidências a coletar e limites conhecidos.
