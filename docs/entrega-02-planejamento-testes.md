@@ -9,7 +9,7 @@
 
 Planejar como verificar o fluxo principal do portal proposto para Educação Corporativa e RH: um colaborador inicia um curso, conclui as atividades, realiza uma avaliação, recebe aprovação e obtém um certificado PDF verificável. O plano também cobre permissões, preservação do histórico, usabilidade por teclado e metas de desempenho indicadas no enunciado.
 
-Este é um plano para a etapa de 11/11. O protótipo ainda não foi construído; portanto, os casos abaixo estão **planejados e não executados**. Nenhum resultado, evidência ou defeito é declarado nesta entrega. A aplicação usará integração simulada com RH e dados inteiramente fictícios.
+Este plano foi elaborado em 10/11 para a etapa de 11/11, antes da construção do protótipo. Em 18/11, o protótipo front-end foi adicionado em `prototype/index.html`; os casos abaixo continuam **planejados e não executados** até que a equipe registre execução e evidências. Nenhum resultado, evidência ou defeito é declarado sem inspeção documentada. A aplicação usa dados inteiramente fictícios e não se integra a RH real.
 
 ## 2. Escopo
 
