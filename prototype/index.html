@@ -123,7 +123,7 @@
             <div class="field">
               <label for="course">Curso</label>
               <select id="course" name="course">
-                <option value="Boas práticas e segurança no ambiente de trabalho" data-hours="4">Boas práticas e segurança no ambiente de trabalho</option>
+                <option value="Segurança do paciente e boas práticas assistenciais" data-hours="4">Segurança do paciente e boas práticas assistenciais</option>
                 <option value="Comunicação e trabalho em equipe" data-hours="2">Comunicação e trabalho em equipe</option>
               </select>
             </div>
@@ -156,30 +156,31 @@
           <span class="badge">Etapa 2 · Avaliação</span>
           <h2 id="quizTitle">Avaliação objetiva</h2>
           <p class="muted">São quatro questões. Cada resposta correta vale 25 pontos.</p>
+          <p class="muted small">Conteúdo introdutório de demonstração; siga os protocolos da instituição e a capacitação oficial. Referências: <a href="https://www.gov.br/anvisa/pt-br/assuntos/servicosdesaude/seguranca-do-paciente/avaliacao-nacional-das-praticas-de-seguranca-do-paciente/DILISEORIENTAESDEPREENCHIMENTOAVALIACODASPRATICASDESEGDOPACIENTE2025_versofinal010425.pdf" target="_blank" rel="noopener">Anvisa — identificação do paciente</a> e <a href="https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-de-higiene-das-maos" target="_blank" rel="noopener">Anvisa — higiene das mãos</a>.</p>
           <form id="quizForm">
             <fieldset>
-              <legend>1. Quando o certificado pode ser emitido?</legend>
-              <label><input type="radio" name="q1" value="a"> Ao abrir a página do curso</label>
-              <label><input type="radio" name="q1" value="b"> Depois de concluir as atividades e atingir a nota mínima</label>
-              <label><input type="radio" name="q1" value="c"> Ao preencher somente o nome</label>
+              <legend>1. Antes de administrar um medicamento ou realizar um procedimento, qual prática de identificação deve ser seguida?</legend>
+              <label><input type="radio" name="q1" value="a"> Confirmar apenas o número do leito</label>
+              <label><input type="radio" name="q1" value="b"> Conferir pelo menos dois identificadores e confirmar verbalmente, conforme o protocolo institucional</label>
+              <label><input type="radio" name="q1" value="c"> Usar somente o primeiro nome</label>
             </fieldset>
             <fieldset>
-              <legend>2. O que ocorre se uma atividade obrigatória estiver pendente?</legend>
-              <label><input type="radio" name="q2" value="a"> O certificado é emitido normalmente</label>
-              <label><input type="radio" name="q2" value="b"> A emissão fica bloqueada e a pendência é informada</label>
-              <label><input type="radio" name="q2" value="c"> A atividade é apagada</label>
+              <legend>2. Qual alternativa descreve momentos importantes para a higiene das mãos?</legend>
+              <label><input type="radio" name="q2" value="a"> Somente no começo e no fim do plantão</label>
+              <label><input type="radio" name="q2" value="b"> Antes do contato com o paciente e antes de procedimento asséptico, entre outros momentos previstos no protocolo</label>
+              <label><input type="radio" name="q2" value="c"> Apenas quando as mãos estiverem visivelmente sujas</label>
             </fieldset>
             <fieldset>
-              <legend>3. Qual é a regra geral de aprovação desta demonstração?</legend>
-              <label><input type="radio" name="q3" value="a"> 50%</label>
-              <label><input type="radio" name="q3" value="b"> 70%, salvo uma exigência superior escolhida para o curso</label>
-              <label><input type="radio" name="q3" value="c"> 100% em todos os cursos</label>
+              <legend>3. Após tocar superfícies próximas ao paciente, mesmo sem tocá-lo diretamente, a higiene das mãos é indicada?</legend>
+              <label><input type="radio" name="q3" value="a"> Não, somente após contato direto</label>
+              <label><input type="radio" name="q3" value="b"> Sim, esse é um dos momentos previstos para higiene das mãos</label>
+              <label><input type="radio" name="q3" value="c"> Somente quando houver troca de setor</label>
             </fieldset>
             <fieldset>
-              <legend>4. O que a consulta do código demonstra?</legend>
-              <label><input type="radio" name="q4" value="a"> Um certificado oficial assinado</label>
-              <label><input type="radio" name="q4" value="b"> A matrícula e todos os dados do participante</label>
-              <label><input type="radio" name="q4" value="c"> Apenas um estado demonstrativo de validade, curso e data neste navegador</label>
+              <legend>4. Qual é o objetivo das ações de segurança do paciente nos serviços de saúde?</legend>
+              <label><input type="radio" name="q4" value="a"> Registrar somente eventos que já causaram dano</label>
+              <label><input type="radio" name="q4" value="b"> Prevenir e reduzir incidentes e eventos que possam causar dano desnecessário</label>
+              <label><input type="radio" name="q4" value="c"> Substituir os protocolos da instituição por uma regra única do formulário</label>
             </fieldset>
             <div class="button-row">
               <button class="primary" type="submit">Ver resultado</button>
