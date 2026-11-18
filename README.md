@@ -32,3 +32,8 @@ As responsabilidades individuais serão definidas pelo grupo. O proponente da pr
 ## Situação das evidências
 
 Requisitos e casos de teste estão especificados. A construção do protótipo está disponível no repositório; medições, execução formal dos casos, capturas de evidência e aprovação de usuários devem ser registradas pelo grupo antes de afirmar resultados.
+## Abrir o protótipo pela web
+
+O site ainda precisa ser habilitado no GitHub Pages. No repositório, abra **Settings → Pages**. Em **Build and deployment**, escolha **Deploy from a branch**, selecione **main** e a pasta **/(root)** e clique em **Save**. Depois da publicação, o endereço esperado é https://bernardo003.github.io/portal-treinamentos-certificados/. Como o repositório é público, o site também ficará público. A página inicial redireciona para o protótipo em `prototype/index.html`.
+
+A configuração de Pages é feita nas configurações do repositório; o código já está preparado para essa publicação. Consulte também a [orientação oficial do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
