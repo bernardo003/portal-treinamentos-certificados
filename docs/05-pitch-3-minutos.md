@@ -1,40 +1,36 @@
 # Pitch de 3 minutos — CertiForm
 
 **Grupo:** Bernardo, Samir, Rafael, Lucas e Leonardo  
-**Público:** banca acadêmica e potenciais parceiros para validação  
-**Tempo-alvo:** até 3 minutos
+**Curso demonstrativo:** Segurança do paciente e boas práticas assistenciais  
+**Tempo-alvo:** aproximadamente 3 minutos
 
-## Mensagem central
+> Roteiro alinhado ao pitch de 10 slides. A equipe pode dividir as falas; não há papéis individuais atribuídos.
 
-O CertiForm organiza capacitações e emite um certificado verificável somente quando o participante conclui as atividades e alcança a nota mínima.
+| Slide | Fala sugerida |
+|---|---|
+| 1. Abertura | “Somos o grupo CertiForm. Apresentamos um fluxo demonstrativo para capacitação e emissão de certificado, com o tema Segurança do paciente e boas práticas assistenciais.” |
+| 2. Desafio | “No cenário de referência, inscrição, atividades e avaliação podem ficar em controles separados. Antes de emitir o certificado, é preciso conferir conclusão e resultado. Não medimos o tempo nem a quantidade de erros desse processo.” |
+| 3. Grupo | “Este projeto foi desenvolvido por Bernardo, Samir, Rafael, Lucas e Leonardo no Modelo 2, de Educação Corporativa e RH.” |
+| 4. Problema e oportunidade | “Quando os registros estão separados, a conferência pode gerar retrabalho e deixar pouco claro por que uma emissão está pendente. A oportunidade é reunir o percurso e mostrar o status.” |
+| 5. Proposta de valor | “O fluxo reúne formulário, atividades, avaliação e certificado. A emissão só é liberada quando as atividades estão concluídas e a nota mínima configurada é atingida.” |
+| 6. Como funciona | “O participante escolhe o curso, informa um nome fictício, conclui as atividades e responde à avaliação. Se aprovado, imprime ou salva o certificado em PDF. O código de consulta funciona localmente no protótipo.” |
+| 7. Adoção e divulgação | “O próximo passo proposto é demonstrar o fluxo a usuários convidados, coletar feedback e ajustar as regras antes de qualquer integração institucional.” |
+| 8. Percurso na tela | “Esta é uma ilustração conceitual, não uma captura de tela do protótipo. A demonstração real percorre formulário, atividades, avaliação, certificado e consulta local.” |
+| 9. Alternativas | “Há ferramentas para gerar documentos a partir de formulários, emitir certificados em um LMS ou preencher designs em lote. O CertiForm demonstra essas etapas em uma mesma jornada, ainda sem integração real.” |
+| 10. Encerramento | “Nossa recomendação preliminar é validar o protótipo como piloto acadêmico. O que queremos discutir são as regras de aprovação, a clareza do fluxo e os requisitos para uma verificação segura.” |
 
-## Roteiro de slides
+## Distribuição sugerida de tempo
 
-| Slide | Conteúdo | Fala sugerida |
-|---|---|---|
-| 1. Abertura | CertiForm — da capacitação ao certificado verificável | “Somos o grupo Bernardo, Samir, Rafael, Lucas e Leonardo. Apresentamos o CertiForm, um fluxo para acompanhar capacitações e emitir certificados com regra clara.” |
-| 2. Problema | Listas, planilhas, conferências e emissão individual | “No cenário de referência, inscrição, conclusão e avaliação podem ficar em controles separados. A conferência e a redigitação criam retrabalho, risco de erro e demora. O prazo de 15 a 30 dias é uma referência do cenário didático, ainda não medido pelo grupo.” |
-| 3. Oportunidade | Centralizar o status do participante | “A oportunidade é dar uma visão única do curso: inscrito, em andamento, concluído, aprovado ou pendente.” |
-| 4. Proposta de valor | Certificado condicionado a conclusão e nota | “O CertiForm só libera o certificado quando as atividades obrigatórias estão concluídas e a nota mínima é atingida. Se algo estiver pendente, o sistema explica o motivo.” |
-| 5. Como funciona | Formulário → atividades → avaliação → PDF → código | “O participante informa dados de demonstração, acompanha atividades e realiza uma avaliação. Na aprovação, o sistema apresenta o certificado para salvar em PDF e um código para consulta.” |
-| 6. Protótipo e tecnologia | Página web em HTML, CSS e JavaScript | “A demonstração é local, leve e usa dados fictícios. O PDF vem da impressão do navegador; a validação por código é local e didática, não substitui assinatura ou autenticação oficial.” |
-| 7. Alternativas | Form Publisher, Moodle Custom Certificate, Canva Bulk Create | “Há ferramentas que geram documentos, emitem certificados dentro de um LMS ou preenchem designs em lote. Nossa proposta integra essas necessidades ao fluxo de inscrição, conclusão e aprovação.” |
-| 8. Validação e impactos | Tempo, erros, bloqueios e facilidade de uso | “Vamos avaliar a jornada por tempo de emissão, erros de preenchimento, bloqueio correto e clareza. Ainda não afirmamos resultados que não foram medidos.” |
-| 9. Modelo de evolução | Validação acadêmica, piloto, integração segura | “O futuro pode incluir perfis, histórico, relatórios e integração autorizada. Isso depende de validar requisitos, privacidade, segurança e viabilidade.” |
-| 10. Equipe e encerramento | Os cinco integrantes e pedido de feedback | “Somos Bernardo, Samir, Rafael, Lucas e Leonardo. Nosso próximo passo é validar o protótipo e melhorar o fluxo a partir de evidências. Queremos feedback sobre regras de aprovação, verificação e experiência do participante.” |
+- Slides 1–3: 35 segundos
+- Slides 4–6: 70 segundos
+- Slides 7–9: 55 segundos
+- Slide 10 e transições: 20 segundos
+- Total estimado: 3 minutos
 
-## Distribuição de tempo sugerida
+## Cuidados na apresentação
 
-- Slides 1–2: 35 segundos
-- Slides 3–5: 55 segundos
-- Slides 6–8: 55 segundos
-- Slides 9–10 e perguntas: 35 segundos
-- Total: aproximadamente 2 minutos e 40 segundos, deixando margem para transição
-
-## Direção visual
-
-- Use pouco texto por slide; uma imagem de fluxo para o processo.
-- Mostrar a tela do protótipo na parte “como funciona”.
-- Usar dados fictícios nos prints e cobrir qualquer identificador de conta.
-- Não usar logotipo institucional como se houvesse aprovação oficial.
-- Encerrar com um pedido de feedback claro.
+- Use somente dados fictícios.
+- Identifique a imagem do slide 8 como ilustração conceitual.
+- Não apresente prazo, redução de erros, satisfação ou resultados como medidos.
+- Explique que o certificado e a consulta por código são demonstrações locais, sem validade institucional.
+- O vídeo da demonstração precisa ser gravado pela equipe; este roteiro não é evidência em vídeo.
