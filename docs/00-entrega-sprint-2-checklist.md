@@ -1,29 +1,32 @@
-# Entrega UC HUB — Sprint 2 (18/11/2026)
+# Entrega UC HUB — Sprint 2 (prazo do cronograma: 18/11/2026)
 
-## O que o guia pede hoje
+**Situação atualizada:** 19/11/2026. O prazo indicado no cronograma já passou. Consulte o orientador sobre como enviar os materiais em atraso.
 
-- [ ] **Evidência do protótipo:** gravar a demonstração funcionando, enviar o vídeo ao Drive ou ao YouTube como não listado e compartilhar o link.
-- [ ] **Pitch de 3 minutos:** preparar/apresentar o projeto usando o modelo PPT da disciplina.
-- [ ] **Relatório final da Squad:** preencher o modelo de relatório final e entregar.
-
-A gravação deve mostrar o fluxo real do CertiForm, com dados fictícios: preencher o nome, marcar atividades, responder à avaliação, obter o certificado após aprovação e consultar o código. Não mostrar contas, RAs ou outros dados pessoais.
-
-## Materiais já preparados
+## Materiais preparados
 
 - Protótipo publicado: https://bernardo003.github.io/portal-treinamentos-certificados/
-- Roteiro para o pitch: [05-pitch-3-minutos.md](05-pitch-3-minutos.md)
-- Relatório final em rascunho: [04-relatorio-final-uc-hub.md](04-relatorio-final-uc-hub.md)
-- Visão integrada, Canvas e escopo: [01-visao-integrada.md](01-visao-integrada.md)
+- Pitch em PowerPoint de dez slides e roteiro de fala preparado.
+- Relatório final em Word preparado com respostas de 11 a 12 linhas.
+- Texto-base público do relatório: [04-relatorio-final-uc-hub.md](04-relatorio-final-uc-hub.md).
+- Roteiro alinhado ao pitch: [05-pitch-3-minutos.md](05-pitch-3-minutos.md).
+- [Guia para gravar a demonstração](06-guia-gravacao-demo.md).
+- Pré-Projeto e Canvas também foram preparados em cópias privadas.
 
-## Itens que o grupo ainda precisa completar
+## Pendências antes de entregar
 
-- Gravar e hospedar a evidência em vídeo; colar aqui o link compartilhável: **[INSERIR LINK DO VÍDEO]**.
-- Usar o modelo PPT fornecido para montar o pitch de 3 minutos. O roteiro no GitHub é texto de apoio, não substitui o arquivo de apresentação exigido.
-- Na questão 1 do relatório, preencher para **todos os cinco integrantes**: nome completo, RA, e-mail institucional e curso. O repositório é público; não publicar RA ou e-mails pessoais nele.
-- Nas questões 2 a 5, cumprir 10 a 15 linhas por resposta. Ajustar o texto às decisões reais do grupo.
-- Incluir somente descobertas, adaptações, feedback, testes e consenso que o grupo de fato observou ou discutiu. Não inventar resultados nem entrevistas.
-- Se o Canvas e o Pré-Projeto da Sprint 1 (21/10) ainda não foram enviados, consultar o orientador sobre entrega em atraso e incluir os documentos.
+- Gravar a demonstração real do protótipo e hospedar o vídeo no local indicado pelo orientador. O guia e o roteiro não substituem a gravação.
+- Confirmar com os cinco integrantes se as opiniões, descobertas e recomendação do relatório representam a visão do grupo, especialmente a unanimidade.
+- Revisar os documentos no Word e conferir os dados acadêmicos na cópia privada.
+- Anexar os arquivos ao canal de entrega indicado pela instituição e confirmar o recebimento.
+- Perguntar ao orientador se o Pré-Projeto e o Canvas da Sprint 1, cujo prazo no cronograma era 21/10/2026, ainda podem ser entregues.
+- Registrar somente testes, feedback, entrevistas, métricas e resultados realmente obtidos.
 
-## Escopo do protótipo
+## Evidência da demonstração
+
+A gravação deve mostrar o fluxo real com dados fictícios: informar um nome, concluir atividades, responder à avaliação, obter o certificado após aprovação e consultar o código. Não mostrar contas, RA, e-mail institucional, pacientes ou outros dados pessoais.
+
+## Limites do protótipo
 
 A demonstração é acadêmica e local. Usa dados fictícios, não tem backend, não se integra a sistemas de RH e não emite certificado oficial. O vídeo comprova somente o funcionamento exibido na gravação, não segurança, desempenho ou uso institucional.
+
+Os RAs e e-mails estão apenas nos arquivos privados para entrega institucional; não devem ser adicionados a este repositório público.
